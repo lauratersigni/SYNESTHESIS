@@ -650,6 +650,9 @@ z-index:1-;}
 /*create*/
 .button {
      margin:10px;
+     width: 60px;
+     height: 60px;
+
 }
 
 .menu {

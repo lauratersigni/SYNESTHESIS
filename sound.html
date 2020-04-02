@@ -44,13 +44,13 @@
 -->
 
 <div class="tri-two">
-<img src="images/triangle-15.png" width="321" height="275" vaule="PLAY 1" onclick="play()">
+<img src="images/triangle-15.png" width="321" height="275">
 <audio id="audio" src="audio/fresh.mp3"></audio></div>
 
 
 <div class="penta">
-<img src="images/penta-14.png" width="220" height="220" vaule="PLAY 2" onclick="play()">
-<audio id="audio" src="audio/bitter.mp3"></audio></div>
+<img src="images/penta-14.png" width="220" height="220">
+<audio id="audio2" src="audio/bitter.mp3"></audio></div>
 
 <!--
 <div id="pentagon" onclick="play()"></div>
@@ -82,7 +82,7 @@
 
 
 <br><br>
-<button onclick="pauseaudio()" type="button" class="btn default-2">Pause Audio</button> 
+<button id="pause" type="button" class="btn default-2">Pause Audio</button> 
 
 
 
@@ -103,26 +103,43 @@ in these brackets but dude it was fkn nasty) an unsatisfying experience. I did n
 
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
 <script>
-
-function play(){
-       var audio = document.getElementById("audio");
+var audio;
+  $(".tri-two").click(function(){
+       audio = document.getElementById("audio");
+       //var audio = $("#audio");
        audio.play();
-     }
+})
 
-var audio = document.getElementById("audio"); 
-    function pauseaudio() { 
-  audio.pause(); 
-} 
+
+$(".penta").click(function(){
+       audio = document.getElementById("audio2");
+       //var audio = $("#audio2");
+       audio.play();
+})
+
+$("#pause").click(function(){
+    audio.pause();
+})
+
+// function play(){
+//        var audio = document.getElementById("audio");
+//        audio.play();
+//      }
+
+// var audio = document.getElementById("audio"); 
+//     function pauseaudio() { 
+//   audio.pause(); 
+// } 
 
 
 
 
  </script>
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
 
 </a></div></body>
 </html>
