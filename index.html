@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Synesthesis </title>
+  <link rel="stylesheet" href="stylesheet/stylesheet.css"> 
+</head>
+
+<body> 
+
+<div class="littletext"> 
+	01.24.20 
+</div>
+
+<div class="images"> <div class="mySlides fade">
+  <img src= "images/Image_1-01.png" width="803" height="708">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_2-02.png" width="803" height="708">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_3-03.png" width="803" height="708">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_6-06.png" width="745" height="650">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_5-05.png" width="735" height="635">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_7-07.png" width="745" height="650">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Image_8-08.png" width="745" height="640">
+</div>
+
+</div></div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+<a href="index.html"><div class="img">
+	<img src="images/Logo_Red-01.png" width="350px" height="185px" align="right">
+</div></a>
+
+
+<div class="tastetext"> how does taste <br>
+sound like?_</div>
+
+<a href="about.html" class="one">
+	<div class="entertext"> Enter </div>
+</a>
+
+<!-- java -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/draggabilly@2.2.0/dist/draggabilly.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

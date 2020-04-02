@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Synesthesis </title>
+  <link rel="stylesheet" href="stylesheet/stylesheet.css"> 
+</head>
+
+<body>
+
+
+<div class="nav a"><a href="about.html">
+  <div class="navigation"> about  |</div>
+
+<div class="nav a"><a href="taste.html">
+  <div class="navigation-two"> taste  |</div>
+</a></div>
+
+<div class="nav a"><a href="sound.html">
+  <div class="navigation-three"> sound  |</div>
+</a></div>
+
+<div class="nav a"><a href="create.html">
+  <div class="navigation-four"> create  |</div>
+</a></div>
+
+<a href="index.html"><div class="image-blue">
+  <img src="images/Logo_Orange-04.png" width="350px" height="185px" align="right">
+</div></a>
+<br>
+
+<div class="square-sound"></div>
+<div class="title"> taste -> sound </div>
+
+<!--
+<img src="images/Image_2-02.png" class="shape" width="501" height="454">-->
+
+<!--
+<img src="images/background.png" class="background" align="center"> -->
+
+<!--
+<img src="images/Image_2-02.png" width="301" height="254" value="PLAY" onclick="play()">
+<audio id="audio" src="images/Salty.m4a" ></audio>
+-->
+
+<div class="tri-two">
+<img src="images/triangle-15.png" width="321" height="275" vaule="PLAY 1" onclick="play()">
+<audio id="audio" src="audio/fresh.mp3"></audio></div>
+
+
+<div class="penta">
+<img src="images/penta-14.png" width="220" height="220" vaule="PLAY 2" onclick="play()">
+<audio id="audio" src="audio/bitter.mp3"></audio></div>
+
+<!--
+<div id="pentagon" onclick="play()"></div>
+<audio id="audio" src="images/Salty.m4a" ></audio>-->
+
+
+<!--
+
+<div class="tri">
+<img src="images/triangle-15.png" width="341" height="295" vaule="PLAY" onclick="play()">
+<audio id="audio" src="images/MorningYes.mp3" ></audio></div>
+
+<div class="tri-three">
+<img src="images/triangle-15.png" width="80" height="75" vaule="PLAY" onclick="play()">
+<audio id="audio" src="images/MorningYes.mp3" ></audio></div>
+
+<div class="round">
+<img src="images/circle-16.png" width="80" height="75" vaule="PLAY" onclick="play()">
+<audio id="audio" src="images/bitter.m4a" ></audio></div>
+
+<div class="round-two">
+<img src="images/circle-16.png" width="160" height="140" vaule="PLAY" onclick="play()">
+<audio id="audio" src="images/bitter.m4a" ></audio></div>
+
+<div class="straight">
+<img src="images/square-17.png" width="105" height="90" vaule="PLAY" onclick="play()">
+<audio id="audio" src="images/bitter.m4a" ></audio></div>
+-->
+
+
+<br><br>
+<button onclick="pauseaudio()" type="button" class="btn default-2">Pause Audio</button> 
+
+
+
+<div class="littletextname">Karlo Calayag</div>
+
+
+<!--
+<button onclick="pauseaudio()" type="button" class="btn default-2">Pause Audio</button> -->
+
+<div class="keywords">KEY WORDS: STICKY, AFTERTASTE, JUICY</div>
+
+
+<div class="text-two"> “Eating the grapefruit on the other hand 
+for me was kind of (you can delete whats 
+in these brackets but dude it was fkn nasty) an unsatisfying experience. I did not like the fruit to <br> say the least. But I guess it still had this feeling of being fresh fruit, and so I opted to make the composition triangle dominant. I then tried to go by the order of the aftertaste, which was strongly bitter which was then followed by hints of sweetness and sour. The sporadic random placement of the shapes are to kind of represent how I was confused by what I was chewing on.” </div>
+
+<br><br>
+
+
+
+<script>
+
+function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+     }
+
+var audio = document.getElementById("audio"); 
+    function pauseaudio() { 
+  audio.pause(); 
+} 
+
+
+
+
+ </script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</a></div></body>
+</html>
