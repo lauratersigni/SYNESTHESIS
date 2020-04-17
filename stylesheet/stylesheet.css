@@ -44,7 +44,7 @@ img {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	margin-top: -45px;
+	margin-top: -140px;
 	margin-left: 1290px;
 }
 
@@ -534,16 +534,47 @@ z-index:1-;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 975px) {
   .text {font-size: 11px}
+
+
+
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 480px) {
+  .text {font-size: 11px}
+
+.littletext {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #64C18D;
+	transform: rotate(-90deg);
+	margin-top: 120px;
+	margin-right: 1300px;
+}
+
+.entertext {
+	font-family: "Rubik", sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: -140px;
+	margin-left: 480px;
+}
+
+  
 }
 
 .svg-square{
 	fill:#0B69AE;
+	align-items: baseline;
 }
 
 .svg-circle{
 	fill:#E34D27;
+	align-items: baseline;
 }
 
 .svg-pentagon{
@@ -562,97 +593,14 @@ z-index:1-;}
 	fill:#64C18D;
 }
 
-
-
-/*
-.rectangle{
-	width: 55px;
-	height: 55px;
-	background-color: #0B69AE;
-}
-
-.circle {
-	width: 55px;
-	height: 55px;
-	border-radius: 50%;
-	background-color: #E34D27;
-}
-
-.triangle {
-	width: 0px;
-	height: 0px;
-	border-left: 35px solid transparent;
-	border-right: 35px solid transparent;
-	border-bottom: 50px solid  #772B36;
-	margin-top: -100px;
-	margin-left: 100px;
-}
-
-.pentagon {
-    position: relative;
-    width: 32px;
-    box-sizing: content-box;
-    border-width: 30px 18px 0;
-    border-style: solid;
-    border-color: #E48B25 transparent;
-    top:40px;
-    margin-left: 195px;
-}
-
-.pentagon:before {
-    content: "";
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: -55px;
-    left: -18px;
-    border-width: 0 34px 25px;
-    border-style: solid;
-    border-color: transparent transparent #E48B25;
-}
-
-.hexagon {
-      width: 60px;
-      height: 45px;
-      background: #F36F5F;
-      position: relative;
-      margin-top: 75px;
-      margin-left: 195px;
-    }
-
-.hexagon:before {
-      content: "";
-      position: absolute;
-      top: -15px;
-      left: 0;
-      width: 0;
-      height: 0;
-      border-left: 30px solid transparent;
-      border-right: 30px solid transparent;
-      border-bottom: 15px solid #F36F5F;
-    }
-
-.hexagon:after {
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 15px solid #F36F5F;
-    }
-*/
-    .elem {
+.elem {
     	position:absolute;
     }
 /*create*/
 .button {
-     margin:10px;
+     margin: 25px;
      width: 60px;
      height: 60px;
-
 }
 
 .menu {
@@ -660,10 +608,12 @@ z-index:1-;}
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width:550px;
     background:#FFFF;
+    align-items:middle;
 
     position:relative;
-    top:20px;
-    left:430px;
+    top:70px;
+    left:400px;
+
 }
 
 .menu-two{
@@ -673,15 +623,15 @@ z-index:1-;}
     background:#FFFF;
 
     position:relative;
-    top:90px;
-    left:430px;
+    top:70px;
+    left:380px;
 }
 .canvas {
     width:1300px;
     height:600px;
     border: 2px solid lightgrey;
     position: relative;
-    top: 70px;
+    top: 90px;
     left: 55px;
 }
 
@@ -705,29 +655,41 @@ z-index:1-;}
 }
 
 .legend{
+
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width:660px;
+    background:#FFFF;
+
+    position:relative;
+    top:180px;
+    left:400px;
+
 	font-family: "Rubik", sans-serif;
 	font-size: 20px;
-	height:70px;
-	max-width: 550px;
 	text-align: center;
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	left: 440px;
-	top: 180px;
 	z-index: 1;
 }
 
 .legend-two{
+
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width:660px;
+    background:#FFFF;
+
+    position:relative;
+    top:70px;
+    left:390px;
+
 	font-family: "Rubik", sans-serif;
 	font-size: 20px;
-	height:70px;
-	max-width: 550px;
 	text-align: center;
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	left: 440px;
-	top: 90px;
 	z-index: 1;
 }
