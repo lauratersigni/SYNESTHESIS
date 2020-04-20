@@ -251,7 +251,7 @@ h3 {
   border-color: #e7e7e7;
   color: black;
   margin-left: 1020px;
-  margin-top: 90px;
+  margin-top: -410px;
   padding: 14px 32px;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -276,6 +276,34 @@ h3 {
   background: #e7e7e7;
 }
 
+.littletextname {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #64C18D;
+	margin-top: -200px;
+	margin-left: 290px;
+}
+
+.source {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #64C18D;
+	margin-top: 50px;
+	margin-left: 290px;
+}
+
+.text-three {
+	font-family: "Rubik", sans-serif;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 290px;
+	margin-right: -90px;
+	max-width: 880px;
+	vertical-align: middle;
+	text-align: left;
+}
 
 img.background {
 	width: 1405px;
@@ -410,33 +438,41 @@ img.background {
 
 /* Shapes */
 .penta {
-	margin-top:-140px;
-	margin-left: 705px;
+	margin-top:-145px;
+	margin-left: 702px;
 	z-index: 1;
 	position: relative;
 }
 
+.straight {
+	margin-top:510px;
+	margin-left: 500px;
+	transform: rotate(40deg);
+	z-index: -10;
+}
+
 .tri {
-	margin-top:25px;
-	margin-left: 230px;
-	transform: rotate(60deg);
+	margin-top:140px;
+	margin-left: 145px;
+	transform: rotate(70deg);
 }
 
 .tri-two {
-	margin-top:205px;
-	margin-left: 462px;
+	margin-top: -265px;
+	margin-left: 547px;
 	transform: rotate(11deg);
+	z-index: 20;
 }
 
 .tri-three {
-	margin-top:-50px;
-	margin-left: 670px;
-	transform: rotate(20deg);
+	margin-top: 10px;
+	margin-right: 515px;
+	transform: rotate(130deg);
 }
 
 .round {
-	margin-top:-490px;
-	margin-left: 690px;
+	margin-top:-610px;
+	margin-left: 705px;
 }
 
 .round-two {
@@ -444,26 +480,13 @@ img.background {
 	margin-left: 790px;
 }
 
-.straight {
-	margin-top:500px;
-	margin-left: 480px;
-	transform: rotate(40deg);
-}
 
 img.shape{
-	margin-top: 260px;
+	margin-top: 90px;
 	margin-left: 450px;
 	position: static;
 }
 
-.littletextname {
-	font-family: "Rubik", sans-serif;
-	font-size: 20px;
-	font-weight: lighter;
-	color: #64C18D;
-	margin-top: -60px;
-	margin-left: 290px;
-}
 
 .keywords {
 	font-family: "Rubik", sans-serif;

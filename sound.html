@@ -32,17 +32,15 @@
 <div class="square-sound"></div>
 <div class="title"> taste -> sound </div>
 
-<!--
-<img src="images/Image_2-02.png" class="shape" width="501" height="454">-->
 
-<!--
-<img src="images/background.png" class="background" align="center"> -->
+<img src="images/Image_2-02.png" class="shape" width="501" height="454">
 
-<!--
-<img src="images/Image_2-02.png" width="301" height="254" value="PLAY" onclick="play()">
-<audio id="audio" src="images/Salty.m4a" ></audio>
--->
 
+
+<br><br>
+<button id="pause" type="button" class="btn default-2">Pause Audio</button> 
+
+<!-- good -->
 <div class="tri-two">
 <img src="images/triangle-15.png" width="321" height="275">
 <audio id="audio" src="audio/fresh.mp3"></audio></div>
@@ -52,45 +50,31 @@
 <img src="images/penta-14.png" width="220" height="220">
 <audio id="audio2" src="audio/bitter.mp3"></audio></div>
 
-<!--
-<div id="pentagon" onclick="play()"></div>
-<audio id="audio" src="images/Salty.m4a" ></audio>-->
-
-
-<!--
 
 <div class="tri">
-<img src="images/triangle-15.png" width="341" height="295" vaule="PLAY" onclick="play()">
-<audio id="audio" src="images/MorningYes.mp3" ></audio></div>
+<img src="images/triangle-15.png" width="341" height="295">
+<audio id="audio" src="audio/fresh.mp3"></audio></div>
+
 
 <div class="tri-three">
-<img src="images/triangle-15.png" width="80" height="75" vaule="PLAY" onclick="play()">
-<audio id="audio" src="images/MorningYes.mp3" ></audio></div>
+<img src="images/triangle-15.png" width="70" height="65">
+<audio id="audio" src="audio/fresh.mp3"></audio></div>
 
 <div class="round">
-<img src="images/circle-16.png" width="80" height="75" vaule="PLAY" onclick="play()">
-<audio id="audio" src="images/bitter.m4a" ></audio></div>
+<img src="images/circle-16.png" width="60" height="60">
+<audio id="audio3" src="audio/sweet.mp3"></audio></div>
 
 <div class="round-two">
-<img src="images/circle-16.png" width="160" height="140" vaule="PLAY" onclick="play()">
-<audio id="audio" src="images/bitter.m4a" ></audio></div>
+<img src="images/circle-16.png" width="140" height="140" >
+<audio id="audio3" src="audio/sweet.mp3"></audio></div>
+
 
 <div class="straight">
-<img src="images/square-17.png" width="105" height="90" vaule="PLAY" onclick="play()">
-<audio id="audio" src="images/bitter.m4a" ></audio></div>
--->
-
-
-<br><br>
-<button id="pause" type="button" class="btn default-2">Pause Audio</button> 
-
+<img src="images/square-17.png" width="60" height="60">
+<audio id="audio4" src="audio/sour.mp3"></audio></div>
 
 
 <div class="littletextname">Karlo Calayag</div>
-
-
-<!--
-<button onclick="pauseaudio()" type="button" class="btn default-2">Pause Audio</button> -->
 
 <div class="keywords">KEY WORDS: STICKY, AFTERTASTE, JUICY</div>
 
@@ -99,9 +83,13 @@
 for me was kind of (you can delete whats 
 in these brackets but dude it was fkn nasty) an unsatisfying experience. I did not like the fruit to <br> say the least. But I guess it still had this feeling of being fresh fruit, and so I opted to make the composition triangle dominant. I then tried to go by the order of the aftertaste, which was strongly bitter which was then followed by hints of sweetness and sour. The sporadic random placement of the shapes are to kind of represent how I was confused by what I was chewing on.” </div>
 
-<br><br>
+<div class="source">Sources</div>
+<div class="text-three">Danilo, director. Sonic Seasoning . Sonic Seasoning , Danilo, www.youtube.com/watch?v=pTj9R2qRbmw.<br>
+Quintet, Shintaro, director. Shintaro Quintet - Sweet And Sour Sound. Youtube, yaoiboi92, www.youtube.com/watch?v=5_stQQjHCZk.<br>
+Starbucks - Topic, director. Morning Yes. Youtube, Starbucks - Topic, www.youtube.com/watch?v=nBbmcKV-Ms0.
+</div>
 
-
+</a></div></body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
@@ -114,9 +102,43 @@ var audio;
        audio.play();
 })
 
+var audio;
+  $(".tri").click(function(){
+       audio = document.getElementById("audio");
+       //var audio = $("#audio");
+       audio.play();
+})
+
+
+var audio;
+  $(".tri-three").click(function(){
+       audio = document.getElementById("audio");
+       //var audio = $("#audio");
+       audio.play();
+})
+
+var audio;
+  $(".round").click(function(){
+       audio = document.getElementById("audio3");
+       //var audio = $("#audio");
+       audio.play();
+})
+
+var audio;
+  $(".round-two").click(function(){
+       audio = document.getElementById("audio3");
+       //var audio = $("#audio");
+       audio.play();
+})
 
 $(".penta").click(function(){
        audio = document.getElementById("audio2");
+       //var audio = $("#audio2");
+       audio.play();
+})
+
+$(".straight").click(function(){
+       audio = document.getElementById("audio4");
        //var audio = $("#audio2");
        audio.play();
 })
@@ -139,7 +161,4 @@ $("#pause").click(function(){
 
 
  </script>
-
-
-</a></div></body>
 </html>
