@@ -711,7 +711,7 @@ body {
 .littletext {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
-	margin-top: 140px;
+	margin-top: 135px;
 	margin-left: 25px;
 	mix-blend-mode: multiply;
 }
@@ -736,7 +736,7 @@ img {
 	margin-top: -180px;
 	margin-right: 5px;
 	position: relative;
-	width: 250px;
+	width: 175px;
 	height: 92px;
 	mix-blend-mode: multiply;
 }
@@ -744,10 +744,10 @@ img {
 /* Slideshow images */
 .images {
 	margin-left: 10px;
-	margin-top: 30px;
+	margin-top: 90px;
 	position: absolute;
-	width: 100px;
-	height: 50px;
+	width: 190px;
+	height: 100px;
 	z-index: 1;
 }
 
