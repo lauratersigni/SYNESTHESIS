@@ -1,3 +1,13 @@
+/* Box-sizing behaviour */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	font-family:"Rubik", sans-serif;
 	font-size: 20px;
@@ -17,7 +27,7 @@ a:hover {
 }
 
 img {
-	margin-top: -120px;
+	margin-top: 5px;
 	margin-right: 25px;
 	position: relative;
 }
@@ -30,6 +40,7 @@ img {
 	transform: rotate(-90deg);
 	margin-top: 80px;
 	margin-right: 1300px;
+	position: absolute;
 }
 
 .tastetext {
@@ -559,56 +570,6 @@ z-index:1-;}
 
 
 
-/* On smaller screens, decrease text size */
-@media (max-width: 480px) {
-
-html, body {
-	overflow-x: hidden;
-	background: white;
-}
-
-body {
-	font-family:"Rubik", sans-serif;
-	font-size: 20px;
-	font-style: normal;
-	vertical-align: middle;
-	color:black;
-	max-width: 480px;
-	mix-blend-mode: multiply;
-}
-
-.littletext {
-	font-family: "Rubik", sans-serif;
-	font-size: 30px;
-	font-weight: lighter;
-	color: #64C18D;
-	transform: rotate(-90deg);
-	margin-top: 500px;
-	margin-left: 30px;
-	mix-blend-mode: multiply;
-}
-
-.entertext {
-	font-family: "Rubik", sans-serif;
-	font-size: 30px;
-	font-weight: lighter;
-	top: -140px;
-	right: 20px;
-	mix-blend-mode: multiply;
-}
-
-
-.tastetext {
-	font-family: "Rubik", sans-serif;
-	font-size: 40px;
-	font-style: normal;
-	color: #0B69AE;
-	margin-top: 900px;
-	margin-left: 50px;
-	mix-blend-mode: multiply;
-}
-  
-}
 
 .svg-square{
 	fill:#0B69AE;
@@ -736,3 +697,54 @@ body {
 	align-items: center;
 	z-index: 1;
 }
+
+
+/* On smaller screens, decrease text size */
+@media (max-width:480px) {
+
+
+body {
+	font-family:"Rubik", sans-serif;
+	max-width: 480px;
+	mix-blend-mode: multiply;
+}
+
+.littletext {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	margin-top: 200px;
+	margin-right: 1100px;
+	mix-blend-mode: multiply;
+}
+
+.entertext {
+	font-family: "Rubik", sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: -140px;
+}
+
+.tastetext {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	margin-top: 900px;
+	margin-left: 50px;
+	
+}
+
+img {
+	margin-top: 120px;
+	margin-right: -10px;
+	position: relative;
+	mix-blend-mode: multiply;
+}
+
+}
+
+/* For screen devices, AND when the resolution is larger than 1000px display the following */
+
+@media screen and (max-width: 1000px) {
+
+}
+
