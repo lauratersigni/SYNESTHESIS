@@ -730,24 +730,22 @@ body {
 	font-style: normal;
 	margin-top: 300px;
 	margin-left: 20px;
-	
 }
 
 img {
-	margin-top: -10px;
+	margin-top: -70px;
 	margin-right: 5px;
 	position: relative;
 	mix-blend-mode: multiply;
 }
 
-
 /* Slideshow images */
 .images {
-	margin-left: 50px;
+	margin-left: 40px;
 	margin-top: 30px;
 	position: absolute;
-	width: 400px;
-	height: 350px;
+	width: 300px;
+	height: 250px;
 	z-index: 1;
 }
 
