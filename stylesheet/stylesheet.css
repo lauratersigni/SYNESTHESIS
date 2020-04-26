@@ -733,9 +733,11 @@ body {
 }
 
 img {
-	margin-top: -150px;
+	margin-top: -180px;
 	margin-right: 5px;
 	position: relative;
+	width: 250px;
+	height: 92px;
 	mix-blend-mode: multiply;
 }
 
