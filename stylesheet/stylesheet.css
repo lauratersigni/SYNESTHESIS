@@ -712,7 +712,7 @@ body {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	margin-top: 140px;
-	margin-left: 40px;
+	margin-left: 20px;
 	mix-blend-mode: multiply;
 }
 
@@ -734,7 +734,7 @@ body {
 }
 
 img {
-	margin-top: 10px;
+	margin-top: -10px;
 	margin-right: 5px;
 	position: relative;
 	mix-blend-mode: multiply;
@@ -743,7 +743,7 @@ img {
 
 /* Slideshow images */
 .images {
-	margin-left: 500px;
+	margin-left: 50px;
 	margin-top: 30px;
 	position: absolute;
 	width: 400px;
