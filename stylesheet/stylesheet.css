@@ -27,7 +27,7 @@ a:hover {
 }
 
 img {
-	margin-top: 5px;
+	margin-top: -120px;
 	margin-right: 25px;
 	position: relative;
 }
@@ -40,7 +40,6 @@ img {
 	transform: rotate(-90deg);
 	margin-top: 80px;
 	margin-right: 1300px;
-	position: absolute;
 }
 
 .tastetext {
@@ -711,8 +710,8 @@ body {
 
 .littletext {
 	font-family: "Rubik", sans-serif;
-	font-size: 20px;
-	margin-top: 200px;
+	font-size: 30px;
+	margin-top: 60px;
 	margin-right: 1100px;
 	mix-blend-mode: multiply;
 }
@@ -722,20 +721,21 @@ body {
 	font-size: 30px;
 	font-weight: lighter;
 	margin-top: -140px;
+	margin-right: 10px;
 }
 
 .tastetext {
 	font-family: "Rubik", sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	font-style: normal;
 	margin-top: 900px;
-	margin-left: 50px;
+	margin-left: 20px;
 	
 }
 
 img {
-	margin-top: 120px;
-	margin-right: -10px;
+	margin-top: 60px;
+	margin-right: 10px;
 	position: relative;
 	mix-blend-mode: multiply;
 }
