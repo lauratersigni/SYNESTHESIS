@@ -736,18 +736,18 @@ img {
 	margin-top: -180px;
 	margin-right: 5px;
 	position: relative;
-	width: 215px;
-	height: 132px;
+	width: 50%;
+	height: 50%;
 	mix-blend-mode: multiply;
 }
 
 /* Slideshow images */
 .images {
 	margin-left: 10px;
-	margin-top: 130px;
+	margin-top: 200px;
 	position: absolute;
-	width: 290px;
-	height: 200px;
+	width:50%;
+	height: 50%;
 	z-index: 1;
 }
 
