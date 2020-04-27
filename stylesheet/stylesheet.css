@@ -719,8 +719,8 @@ body {
 
 .entertext {
 	font-size: 30px;
-	margin-top: 30px;
-	margin-left: 280px;
+	margin-top: 40px;
+	margin-left: 180px;
 }
 
 .tastetext {
@@ -729,11 +729,6 @@ body {
 	font-style: normal;
 	margin-top: 410px;
 	margin-left: 20px;
-}
-
-.one {
-	margin-top: 30px;
-	margin-left: 280px;
 }
 
 img {
