@@ -700,7 +700,7 @@ z-index:1-;}
 
 
 /* On smaller screens, decrease text size */
-@media (max-width:480px) {
+@media (max-width:470px) {
 
 
 body {
@@ -721,8 +721,8 @@ body {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	margin-top: -140px;
-	margin-left: 50px;
+	margin-top: -170px;
+	margin-left: 140px;
 }
 
 .tastetext {
