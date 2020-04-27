@@ -700,7 +700,7 @@ z-index:1-;}
 
 
 /* On smaller screens, decrease text size */
-@media (max-width:470px) {
+@media (max-width:480px) {
 
 
 body {
@@ -721,8 +721,8 @@ body {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	margin-top: -40px;
-	margin-left: 290px;
+	margin-top: -60px;
+	margin-left: 280px;
 	transform: rotate(-90deg);
 }
 
@@ -745,11 +745,11 @@ img {
 
 /* Slideshow images */
 .images {
-	margin-left: 20px;
-	margin-top: 250px;
+	margin-left: 25px;
+	margin-top: 240px;
 	position: absolute;
-	width: 672px;
-	height: 620px;
+	width: 572px;
+	height: 520px;
 	z-index: 1;
 }
 
