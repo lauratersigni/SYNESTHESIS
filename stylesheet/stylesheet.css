@@ -705,7 +705,7 @@ z-index:1-;}
 
 body {
 	font-family:"Rubik", sans-serif;
-	max-width: 480px;
+	max-width: 380px;
 	mix-blend-mode: multiply;
 }
 
@@ -721,7 +721,7 @@ body {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	margin-top: -90px;
+	margin-top: -80px;
 	margin-left: 280px;
 	transform: rotate(-90deg);
 }
@@ -748,8 +748,8 @@ img {
 	margin-left: 25px;
 	margin-top: 230px;
 	position: absolute;
-	width: 572px;
-	height: 520px;
+	width: 672px;
+	height: 620px;
 	z-index: 1;
 }
 
