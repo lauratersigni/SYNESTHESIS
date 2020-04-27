@@ -728,7 +728,7 @@ body {
 .tastetext {
 	font-family: "Rubik", sans-serif;
 	font-size: 40px;
-	font-style: normal;
+	font-style: bold;
 	margin-top: 400px;
 	margin-left: 20px;
 }
@@ -747,8 +747,8 @@ img {
 	margin-left: 10px;
 	margin-top: 200px;
 	position: absolute;
-	width:75%;
-	height: 75%;
+	width:85%;
+	height: 85%;
 	z-index: 1;
 }
 
