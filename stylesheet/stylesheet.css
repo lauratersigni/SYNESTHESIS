@@ -717,11 +717,6 @@ body {
 	mix-blend-mode: multiply;
 }
 
-.entertext {
-	font-size: 30px;
-	margin-top: 10px;
-	margin-left: 280px;
-}
 
 .tastetext {
 	font-family: "Rubik", sans-serif;
@@ -732,7 +727,7 @@ body {
 }
 
 img {
-	margin-top: -180px;
+	margin-top: -170px;
 	margin-right: 5px;
 	position: relative;
 	width: 50%;
