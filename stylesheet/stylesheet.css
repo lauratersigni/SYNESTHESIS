@@ -721,7 +721,7 @@ body {
 	font-family: "Rubik", sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	margin-top: -20px;
+	margin-top: -40px;
 	margin-left: 290px;
 	transform: rotate(-90deg);
 }
@@ -746,7 +746,7 @@ img {
 /* Slideshow images */
 .images {
 	margin-left: 20px;
-	margin-top: 200px;
+	margin-top: 250px;
 	position: absolute;
 	width: 672px;
 	height: 620px;
