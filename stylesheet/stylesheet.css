@@ -745,11 +745,15 @@ img {
 a{
 	color: #E48B25;
 	text-decoration: none;
+    margin-top: 10px;
+	margin-left: 280px;
 }
 
 a:hover {
 	color: #F36F5F;
 	text-decoration: underline;
+		margin-top: 10px;
+	margin-left: 280px;
 }
 
 /* Slideshow images */
