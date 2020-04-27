@@ -744,11 +744,11 @@ img {
 
 /* Slideshow images */
 .images {
-	margin-left: 10px;
+	margin-left: 30px;
 	margin-top: 200px;
 	position: absolute;
-	width: 401px;
-	height: 354px;
+	width: 372.5px;
+	height: 325px;
 	z-index: 1;
 }
 
