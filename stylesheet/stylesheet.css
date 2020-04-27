@@ -718,9 +718,7 @@ body {
 }
 
 .entertext {
-	font-family: "Rubik", sans-serif;
 	font-size: 30px;
-	font-weight: lighter;
 	margin-top: 10px;
 	margin-left: 280px;
 }
@@ -740,20 +738,6 @@ img {
 	width: 50%;
 	height: 50%;
 	mix-blend-mode: multiply;
-}
-
-a{
-	color: #E48B25;
-	text-decoration: none;
-    margin-top: 10px;
-	margin-left: 280px;
-}
-
-a:hover {
-	color: #F36F5F;
-	text-decoration: underline;
-		margin-top: 10px;
-	margin-left: 280px;
 }
 
 /* Slideshow images */
