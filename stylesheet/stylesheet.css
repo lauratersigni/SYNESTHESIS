@@ -700,7 +700,7 @@ z-index:1-;}
 
 
 /* On smaller screens, decrease text size */
-@media (max-width:480px) {
+@media (max-width:400px) {
 
 
 body {
@@ -727,6 +727,7 @@ body {
 
 .entertext {
 	margin-left: 15px;
+	margin-top: 410px;
 
 }
 
@@ -735,7 +736,7 @@ body {
 	font-size: 30px;
 	font-style: normal;
 	margin-top: 410px;
-	margin-left: 140px;
+	margin-left: 170px;
 }
 
 img {
