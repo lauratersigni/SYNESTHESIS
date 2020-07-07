@@ -726,15 +726,17 @@ body {
 */
 
 .entertext {
-	margin-left: 10px;
+	margin-left: 15px;
+	font-size: 40px;
+
 }
 
 .tastetext {
 	font-family: "Rubik", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	font-style: normal;
 	margin-top: 410px;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 img {
