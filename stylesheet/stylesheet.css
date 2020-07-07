@@ -700,7 +700,7 @@ z-index:1-;}
 
 
 /* On smaller screens, decrease text size */
-@media (max-width:410px) {
+@media (max-width:480px) {
 
 
 body {
