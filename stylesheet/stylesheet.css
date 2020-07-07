@@ -717,11 +717,13 @@ body {
 	mix-blend-mode: multiply;
 }
 
+/*
 .entertext {
 	font-size: 30px;
 	margin-top: 40px;
 	margin-left: 180px;
 }
+*/
 
 .tastetext {
 	font-family: "Rubik", sans-serif;
