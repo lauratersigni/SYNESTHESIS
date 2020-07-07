@@ -726,8 +726,7 @@ body {
 */
 
 .entertext {
-	margin-left: 150px;
-	z-index:1;
+	margin-left: 10px;
 }
 
 .tastetext {
